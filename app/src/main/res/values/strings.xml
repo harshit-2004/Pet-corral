@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Pet-corral</string>
+    <string name="apprentice">Apprentice</string>
+    <string name="from">from</string>
+    <string name="pet_corral">Pet Corral</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -8,6 +8,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Petcorral">
+
+        <activity
+            android:name=".RecyclerView"
+            android:exported="false" />
         <activity
             android:name=".buyOrSell"
             android:exported="false" />

@@ -9,7 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Petcorral">
         <activity
-            android:name=".LogIn"
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Instruction"
             android:exported="false" />
         <activity
             android:name=".RecyclerView"

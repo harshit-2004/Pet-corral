@@ -1,10 +1,8 @@
 package com.example.pet_corral
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-import android.os.PersistableBundle
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
@@ -25,7 +23,7 @@ class SplashScreen : AppCompatActivity() {
 
         Handler().postDelayed({
             startActivity(intent)
-            val intent = Intent(this@SplashScreen,LogIn::class.java)
+            val intent = Intent(this@SplashScreen,Instruction::class.java)
             startActivity(intent)
             finish()
         },splashScreen.toLong())

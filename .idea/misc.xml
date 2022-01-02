@@ -3,8 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/drawable/icon_background.xml" value="0.1" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/drawable/indicator_activate_background.xml" value="0.1" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/drawable/indicator_inactive_background.xml" value="0.1" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/drawable/view_pager_background.xml" value="0.16799999999999998" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_buy_or_sell.xml" value="0.25" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_home.xml" value="0.13994565217391305" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_instruction.xml" value="0.4" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_pet_name.xml" value="0.25" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_recycler_view.xml" value="0.25" />
         <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="..\:/Coding/Pet-corral/app/src/main/res/layout/onboarding_item_container.xml" value="0.12132725430597771" />
         <entry key="..\:/Coding/Pet-corral/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14322916666666666" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.32037037037037036" />

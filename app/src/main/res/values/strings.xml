@@ -4,4 +4,6 @@
     <string name="from">from</string>
     <string name="pet_corral">Pet Corral</string>
     <string name="todo">TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
 </resources>

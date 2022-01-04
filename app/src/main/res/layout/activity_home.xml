@@ -8,8 +8,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="411dp"
-            android:layout_height="220dp"
+            android:layout_width="409dp"
+            android:layout_height="247dp"
 
             android:background="@drawable/fold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -21,8 +21,9 @@
             app:srcCompat="@drawable/pet" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="406dp"
-            android:layout_height="374dp"
+            android:layout_width="400dp"
+            android:layout_height="377dp"
+            android:background="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.54"
@@ -36,13 +37,14 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="56dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/alfa_slab_one"
                 android:gravity="center"
                 android:text="Your pet is waiting for you"
                 android:textColor="#BF5E29"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.271"
+                app:layout_constraintHorizontal_bias="0.68"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 

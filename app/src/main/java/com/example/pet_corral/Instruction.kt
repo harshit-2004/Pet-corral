@@ -68,7 +68,7 @@ class Instruction : AppCompatActivity() {
     }
 
     private fun navigateToHomeActivity() {
-        startActivity(Intent(applicationContext, HomeActivity::class.java))
+        startActivity(Intent(applicationContext, LogIn::class.java))
         finish()
     }
 

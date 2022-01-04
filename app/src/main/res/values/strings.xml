@@ -6,4 +6,8 @@
     <string name="todo">TODO</string>
     <string name="get_started">Get Started</string>
     <string name="skip">Skip</string>
+    <string name="please_enter_your_details_to_carry_out_the_process">Please enter your details to carry out the process...</string>
+    <string name="name">Name</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="thanks_we_will_contact_you_as_soon_as_possible">THANKS , we will contact you as soon as possible!</string>
 </resources>

@@ -56,7 +56,7 @@
                 android:background="#FCDFC7"
                 android:hint="username"
                 android:textColor="#BF5E29"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -71,7 +71,7 @@
                 android:background="#FCDFC7"
                 android:hint="Password"
                 android:textColor="#BF5E29"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -112,7 +112,7 @@
                 app:layout_constraintVertical_bias="0.326" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/skip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FCDFC7"
@@ -132,8 +132,8 @@
                 android:layout_height="23dp"
                 android:text="OR"
                 android:textColor="#BF5E29"
-                android:textSize="15dp"
-                app:layout_constraintBottom_toTopOf="@+id/button2"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/skip"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.43"
                 app:layout_constraintStart_toStartOf="parent"

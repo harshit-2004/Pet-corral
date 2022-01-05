@@ -21,13 +21,13 @@
             app:srcCompat="@drawable/pet" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="400dp"
-            android:layout_height="377dp"
+            android:layout_width="412dp"
+            android:layout_height="381dp"
             android:background="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.54"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.09"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
             app:layout_constraintVertical_bias="1.0">
@@ -37,14 +37,13 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="56dp"
                 android:fontFamily="@font/alfa_slab_one"
                 android:gravity="center"
                 android:text="Your pet is waiting for you"
                 android:textColor="#BF5E29"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.68"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,7 +55,7 @@
                 android:background="#FCDFC7"
                 android:hint="username"
                 android:textColor="#BF5E29"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -71,7 +70,7 @@
                 android:background="#FCDFC7"
                 android:hint="Password"
                 android:textColor="#BF5E29"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
@@ -91,10 +90,9 @@
                 android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.41"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editText2"
-                app:layout_constraintVertical_bias="0.027" />
+                app:layout_constraintVertical_bias="0.009" />
 
             <Button
                 android:id="@+id/g_signin"
@@ -106,13 +104,13 @@
                 android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.415"
+                app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button"
-                app:layout_constraintVertical_bias="0.326" />
+                app:layout_constraintVertical_bias="0.262" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/skip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FCDFC7"
@@ -121,24 +119,10 @@
                 android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.876"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.934" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="21dp"
-                android:layout_height="23dp"
-                android:text="OR"
-                android:textColor="#BF5E29"
-                android:textSize="15dp"
-                app:layout_constraintBottom_toTopOf="@+id/button2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.43"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintVertical_bias="0.951" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

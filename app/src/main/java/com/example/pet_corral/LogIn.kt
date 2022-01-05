@@ -28,7 +28,7 @@ class LogIn : AppCompatActivity() {
                 // Google Sign In was successful, authenticate with Firebase
                 val account = task.getResult(ApiException::class.java)!!
                 Log.d("Login Success", "firebaseAuthWithGoogle:" + account.id)
-                val intent=Intent(this,RecyclerView::class.java)
+                val intent=Intent(this,buyOrSell::class.java)
                 startActivity(intent)
                 finish()
                 firebaseAuthWithGoogle(account.idToken!!)
@@ -80,9 +80,12 @@ class LogIn : AppCompatActivity() {
                         Log.w("SignInActivity", "signInWithCredential:failure", task.exception)
                     }
                 }
-
-
-    }
+            val skip = findViewById<Button>(R.id.skip)
+            skip.setOnClickListener {
+                val intent = Intent(this, buyOrSell::class.java)
+                startActivity(intent)
+            }
+        }
 }
 
 

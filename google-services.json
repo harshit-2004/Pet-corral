@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "213541754053",
+    "project_id": "pet-corral",
+    "storage_bucket": "pet-corral.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213541754053:android:4cb43d0e432f315fa78cac",
+        "android_client_info": {
+          "package_name": "com.example.pet_corral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213541754053-8k5nd21ncb50eim7ud329rqsc4i2m4m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjbdbK74jZBQt0OTwWhZqIQP9e4q8ZwT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213541754053-8k5nd21ncb50eim7ud329rqsc4i2m4m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

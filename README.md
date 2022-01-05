@@ -2,10 +2,9 @@
 All about providing animals new home.
 
 # ScreenShots
-
-
-
-
+<img src="https://github.com/harshit-2004/Pet-corral/blob/master/Screenshots/screen1.jpg" width="280" height="470" /> <img src="https://github.com/harshit-2004/Pet-corral/blob/master/Screenshots/Screen2.jpg" width="280" height="470" /><br>
+<img src="https://github.com/harshit-2004/Pet-corral/blob/master/Screenshots/Screen3.jpg" width="280" height="470" />
+<img src="https://github.com/harshit-2004/Pet-corral/blob/master/Screenshots/Screen4.jpg" width="280" height="470" />
 
 # About App
 1. Here you can find details of stay animals.

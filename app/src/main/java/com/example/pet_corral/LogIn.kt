@@ -2,6 +2,7 @@ package com.example.pet_corral
 
 import android.app.Activity
 import android.content.Intent
+import android.icu.util.TimeUnit.values
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -14,6 +15,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.common.config.GservicesValue.value
+import java.time.chrono.JapaneseEra.values
 
 class LogIn : AppCompatActivity() {
     private lateinit var mauth: FirebaseAuth
@@ -57,7 +60,7 @@ class LogIn : AppCompatActivity() {
                     .build()
                 googleSignInClient = GoogleSignIn.getClient(this, gso)
             }
-            val signin: Button = findViewById(R.id.g_signin);
+            val signin: Button = findViewById(R.id.g_signin)
             signin.setOnClickListener {
                 googleSignInClient.signOut()
                 signIn()

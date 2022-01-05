@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pet-corral</string>
+    <string name="app_name">Pet Corral</string>
     <string name="apprentice">Apprentice</string>
     <string name="from">from</string>
     <string name="pet_corral">Pet Corral</string>
@@ -18,4 +18,9 @@
     <string name="login_failed">"Login failed"</string>
     <string name="sign_in_using_google">Sign In Using Google</string>
     <string name="button">Button</string>
+    <string name="cats">Cats</string>
+    <string name="dogs">Dogs</string>
+    <string name="pet">Pet</string>
+    <string name="adopt">Adopt</string>
+    <string name="barter">Barter</string>
 </resources>

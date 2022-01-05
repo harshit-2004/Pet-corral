@@ -6,9 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import java.util.ArrayList
-class Postadaptor(private val titleList:ArrayList<String>,
-                  private  val descList:ArrayList<String>,
-                  private val authList:ArrayList<String>):RecyclerView.Adapter<Postadaptor.PostViewHolder>() {
+
+class Postadaptor(private val titleList:ArrayList<String>, private  val descList:ArrayList<String>, private val authList:ArrayList<String>):RecyclerView.Adapter<Postadaptor.PostViewHolder>() {
     inner class PostViewHolder(view:View):RecyclerView.ViewHolder(view) {
         val title:TextView=view.findViewById(R.id.textView)
         val desc:TextView=view.findViewById(R.id.textView2)
@@ -24,7 +23,6 @@ class Postadaptor(private val titleList:ArrayList<String>,
         holder.title.text=titleList[position]
         holder.desc.text=descList[position]
         holder.author.text=authList[position]
-
     }
 
     override fun getItemCount(): Int {

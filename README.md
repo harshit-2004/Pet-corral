@@ -7,8 +7,8 @@ All about providing animals new home.
 <img src="https://github.com/harshit-2004/Pet-corral/blob/master/Screenshots/Screen4.jpg" width="280" height="470" />
 
 # About App
-1. Here you can find details of stay animals.
-2. You can put information about stay animals near you.
+1. Here you can find details of stray animals.
+2. You can put information about stray animals near you.
 3. Good place to find new pet.
 4. If you are not able to kept your pet then you can put information about it so that one who is will to get pet get it.
 

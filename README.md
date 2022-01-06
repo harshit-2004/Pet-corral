@@ -10,7 +10,7 @@ All about providing animals new home.
 1. Here you can find details of stray animals.
 2. You can put information about stray animals near you.
 3. Good place to find new pet.
-4. If you are not able to kept your pet then you can put information about it so that one who is will to get pet get it.
+4. If you are no longer able to continue keeping your dogs for some reasons then too you can easily find someone willing to adopt your dog trough this application very efficiently.
 
 # Tools And Technology Used
 1. Android Studio
